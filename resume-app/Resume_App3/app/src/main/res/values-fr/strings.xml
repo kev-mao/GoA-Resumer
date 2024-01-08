@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading_blurb">Attendez un moment s.v.p. …</string>
+
+    <string name="title_your_resumes">Vos resumes</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_resume_editor">Remplir</string>
+    <string name="title_resume_preview">Apercu de PDF</string>
+
+    <string name="button_create_resume">Creer un resume</string>
+    <string name="button_preview">Apercu</string>
+    <string name="button_download">Telecharger</string>
+    <string name="button_save">Confirmer</string>
+
+    <string name="header_experience">Experiences</string>
+    <string name="header_education">Education</string>
+    <string name="header_certifications">Certifications</string>
+    <string name="header_awards">Distinctions</string>
+    <string name="header_skills">Competences</string>
+    <string name="header_introduction">Introduction</string>
+
+    <string name="header_add_experience">Ajouter des expériences</string>
+    <string name="header_add_education">Ajouter des formations</string>
+    <string name="header_add_certifications">Ajouter des certificats</string>
+    <string name="header_add_awards">Ajouter des distinctions</string>
+    <string name="header_add_skills">Ajouter des compétences</string>
+
+    <string name="toast_file_saved">Document telecharge !</string>
+
+    <string name="issued_date_to_expiry_date">Recu: %1$s | Expirera: %2$s</string>
+    <string name="start_date_to_end_date">%1$s a %2$s</string>
+
+    <string name="header_enter_resume_name">Entrez le nom du CV</string>
+
+
+    <!--edit text hints below-->
+    <!--shared-->
+    <string name="short_description">Description courte</string>
+    <string name="issuer_name">Emetteur</string>
+    <string name="issued_date">Date d\'emission</string>
+    <string name="expiry_date">Date d\'expiration</string>
+    <string name="start_date">Date de debut</string>
+    <string name="end_date">Date de fin</string>
+    <string name="resume_name">Nom du CV</string>
+
+    <!--information card-->
+    <string name="edit_information">Modifier l\'information</string>
+    <string name="name">Comment vous appelez-vous ?</string>
+    <string name="current_job">Travail actuel</string>
+    <string name="phone_number">Telephone</string>
+    <string name="email">Email</string>
+
+    <!--introduction card-->
+    <string name="edit_introduction">Modifier l\'introduction</string>
+    <string name="introduction">Parlez-nous de vous…</string>
+
+    <!--experience card-->
+    <string name="add_experience">Ajouter une experience</string>
+    <string name="edit_experience">Modifier une experience</string>
+    <string name="position_title">Travail</string>
+    <string name="organization_name">Organization</string>
+
+    <!--award card-->
+    <string name="add_award">Ajouter une distinction</string>
+    <string name="edit_award">Modifier une distinction</string>
+    <string name="award_honour_title">Distinction</string>
+
+    <!--education card-->
+    <string name="add_education">Ajouter une education</string>
+    <string name="edit_education">Modifier une education</string>
+    <string name="school_name">Ecole</string>
+
+    <!--certification card-->
+    <string name="add_certification">Ajouter une certification</string>
+    <string name="edit_certification">Modifier une certification</string>
+    <string name="certification_license_title">Certification</string>
+
+    <!--skill card-->
+    <string name="add_skill">Ajouter une competence</string>
+    <string name="edit_skill">Modifier une competence</string>
+    <string name="skill">Competence</string>
+
+    <string name="error_generic">Quelque erreur s\'est produite…</string>
+    <string name="error_fill_field">Cette reponse est obligatoire !</string>
+    <string name="error_already_exists">Ce document existe deja !</string>
+    <string name="error_not_found">Cet article n\'est plus dans votre profil. L\'effacer ?</string>
+
+    <string name="lose_progress_warning">Vous perdrez tous vos progres si vous quittez maintenant !</string>
+    <string name="continue_working">Continuer</string>
+    <string name="erase_progress">Quitter</string>
+
+    <string name="delete_card_warning">Etes-vous certain que vous voulez effacer cet article ?</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Effacer</string>
+
+    <string name="not_sure_what_to_write">Qu\'est-ce que je dois ecrire ?</string>
+    <string name="experience_writing_tips">
+        Desole ! On a besoin de traducteurs; contactez-nous s\il vous interesse !
+
+        This is one of the most important sections of your resume,
+        as it shows employers that you\'re qualified for the job.
+        Here are some things you might write about…\n\n
+
+        \t• Outline your responsibilities at the job;\n
+        \t• Describe some of the things you worked on;\n
+        \t• Highlight any achievements.\n\n
+
+        Still feeling stuck? Try looking at some examples for inspiration!
+    </string>
+    <string name="introduction_writing_tips">
+        Desole ! On a besoin de traducteurs; contactez-nous s\il vous interesse !
+
+        This is the first thing employers will read,
+        so it’s important to make a good first impression!
+        For example, you can write about…\n\n
+
+        \t• Any relevant experience or skills;\n
+        \t• Any career highlights and achievements.\n\n
+
+        Still feeling stuck? Try looking at some examples for inspiration!
+    </string>
+
+</resources>

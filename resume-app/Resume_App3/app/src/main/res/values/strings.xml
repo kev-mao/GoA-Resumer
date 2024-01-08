@@ -1,0 +1,122 @@
+<resources>
+    <string name="placeholder_text" translatable="false">PLACEHOLDER TEXT</string>
+
+    <string name="app_name" translatable="false">Resume App</string>
+
+    <string name="loading_blurb">We\'re setting up…</string>
+
+    <string name="title_your_resumes">Your Resumes</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_resume_editor">Fill In</string>
+    <string name="title_resume_preview">PDF Preview</string>
+
+    <string name="button_create_resume">Create Resume</string>
+    <string name="button_preview">Preview</string>
+    <string name="button_download">Download</string>
+    <string name="button_save">Save</string>
+
+    <string name="header_experience">Experience</string>
+    <string name="header_education">Education</string>
+    <string name="header_certifications">Certifications</string>
+    <string name="header_awards">Awards</string>
+    <string name="header_skills">Skills</string>
+    <string name="header_introduction">Introduction</string>
+
+    <string name="header_add_experience">Add Experiences</string>
+    <string name="header_add_education">Add Education</string>
+    <string name="header_add_certifications">Add Certifications</string>
+    <string name="header_add_awards">Add Awards</string>
+    <string name="header_add_skills">Add Skills</string>
+
+    <string name="toast_file_saved">File downloaded successfully!</string>
+
+    <string name="issued_date_to_expiry_date">Issued: %1$s | Expires: %2$s</string>
+    <string name="start_date_to_end_date">%1$s to %2$s</string>
+
+    <string name="header_enter_resume_name">Enter Resume Name</string>
+
+
+    <!--edit text hints below-->
+    <!--shared-->
+    <string name="short_description">Short description</string>
+    <string name="issuer_name">Issuer</string>
+    <string name="issued_date">Date issued</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="start_date">Date started</string>
+    <string name="end_date">Date ended</string>
+    <string name="resume_name">Resume name</string>
+
+    <!--information card-->
+    <string name="edit_information">Edit Information</string>
+    <string name="name">What\'s your name?</string>
+    <string name="current_job">Current job</string>
+    <string name="phone_number">Phone</string>
+    <string name="email">Email</string>
+
+    <!--introduction card-->
+    <string name="edit_introduction">Edit Introduction</string>
+    <string name="introduction">Tell us about yourself…</string>
+
+    <!--experience card-->
+    <string name="add_experience">Add Experience</string>
+    <string name="edit_experience">Edit Experience</string>
+    <string name="position_title">Position</string>
+    <string name="organization_name">Company</string>
+
+    <!--award card-->
+    <string name="add_award">Add Award</string>
+    <string name="edit_award">Edit Award</string>
+    <string name="award_honour_title">Award</string>
+
+    <!--education card-->
+    <string name="add_education">Add Education</string>
+    <string name="edit_education">Edit Education</string>
+    <string name="school_name">School</string>
+
+    <!--certification card-->
+    <string name="add_certification">Add Certification</string>
+    <string name="edit_certification">Edit Certification</string>
+    <string name="certification_license_title">Certification</string>
+
+    <!--skill card-->
+    <string name="add_skill">Add Skill</string>
+    <string name="edit_skill">Edit Skill</string>
+    <string name="skill">Skill</string>
+
+    <string name="error_generic">Something went wrong…</string>
+    <string name="error_fill_field">This field is required!</string>
+    <string name="error_already_exists">That file already exists!</string>
+    <string name="error_not_found">This item is no longer in your profile. Delete it?</string>
+
+    <string name="lose_progress_warning">You will lose all your progress if you exit now!</string>
+    <string name="continue_working">Continue</string>
+    <string name="erase_progress">Exit</string>
+
+    <string name="delete_card_warning">Are you sure you want to delete this item?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <string name="not_sure_what_to_write">Not sure what to write?</string>
+    <string name="experience_writing_tips">
+        This is one of the most important sections of your resume,
+        as it shows employers that you\'re qualified for the job.
+        Here are some things you might write about…\n\n
+
+        \t• Outline your responsibilities at the job;\n
+        \t• Describe some of the things you worked on;\n
+        \t• Highlight any achievements.\n\n
+
+        Still feeling stuck? Try looking at some examples for inspiration!
+    </string>
+    <string name="introduction_writing_tips">
+        This is the first thing employers will read,
+        so it’s important to make a good first impression!
+        For example, you can write about…\n\n
+
+        \t• Any relevant experience or skills;\n
+        \t• Any career highlights and achievements.\n\n
+
+        Still feeling stuck? Try looking at some examples for inspiration!
+    </string>
+
+</resources>

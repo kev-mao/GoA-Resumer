@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/light_blue"
+    tools:context=".resume_editor.ResumeEditorActivity">
+
+    <LinearLayout
+        android:id="@+id/top_navigation"
+        style="@style/ResumeApp.Toolbar"
+        android:layout_alignParentTop="true"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="16dp">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_left"
+            android:backgroundTint="@color/white"
+            tools:ignore="ContentDescription" />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/ResumeApp.Title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_resume_editor"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_navigation"
+        android:layout_alignParentBottom="true" />
+
+    <include
+        android:id="@+id/loader"
+        layout="@layout/item_loader"
+        android:visibility="gone" />
+
+</RelativeLayout>
+

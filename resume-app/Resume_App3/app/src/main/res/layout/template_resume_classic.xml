@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?><!--This layout is LETTER SIZE (8.5" 11")-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/template"
+    android:layout_width="612px"
+    android:layout_height="792px"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:padding="40px"
+    tools:ignore="PxUsage">
+
+    <LinearLayout
+        android:layout_width="320px"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/resume_header_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/placeholder_text"
+            android:textColor="#488BA8"
+            android:textSize="36px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px">
+
+            <TextView
+                android:id="@+id/resume_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_text"
+                android:textColor="#000000"
+                android:textSize="14px" />
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/resume_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_text"
+                android:textColor="#000000"
+                android:textSize="14px" />
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/resume_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:text="@string/placeholder_text"
+            android:textColor="#000000"
+            android:textSize="14px" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/resume_header_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/header_experience"
+            android:textColor="#488BA8"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/resume_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:text="@string/placeholder_text"
+            android:textColor="#000000"
+            android:textSize="14px" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/resume_header_education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/header_education"
+            android:textColor="#488BA8"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/resume_education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:text="@string/placeholder_text"
+            android:textColor="#000000"
+            android:textSize="14px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="172px"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/resume_header_certifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/header_certifications"
+            android:textColor="#488BA8"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/resume_certifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:text="@string/placeholder_text"
+            android:textColor="#000000"
+            android:textSize="14px" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/resume_header_awards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/header_awards"
+            android:textColor="#488BA8"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/resume_awards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:text="@string/placeholder_text"
+            android:textColor="#000000"
+            android:textSize="14px" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/resume_header_skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/header_skills"
+            android:textColor="#488BA8"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/resume_skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:text="@string/placeholder_text"
+            android:textColor="#000000"
+            android:textSize="14px" />
+
+    </LinearLayout>
+
+</LinearLayout>

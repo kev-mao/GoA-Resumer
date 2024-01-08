@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/experience_material_cardview"
+        style="@style/ResumeApp.Card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/position_title_textview"
+                    style="@style/ResumeApp.Header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/position_title" />
+
+                <ImageButton
+                    android:id="@+id/experience_delete_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_close_24"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/organization_name_textview"
+                style="@style/ResumeApp.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="@string/organization_name" />
+
+            <TextView
+                android:id="@+id/experience_description_textview"
+                style="@style/ResumeApp.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="@string/short_description" />
+
+            <TextView
+                android:id="@+id/job_start_end_date_textview"
+                style="@style/ResumeApp.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/start_date_to_end_date"
+                android:textSize="12sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/not_found_warning"
+                style="@style/ResumeApp.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/error_not_found"
+                android:textSize="12sp"
+                android:visibility="gone"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

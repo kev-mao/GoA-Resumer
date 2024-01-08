@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".resume_editor.ResumeEditorFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_preview"
+        style="@style/ResumeApp.FloatingButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_preview"
+        app:icon="@drawable/file_text"
+        app:iconPadding="8dp"
+        app:iconSize="16dp" />
+
+    <ScrollView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="100dp"
+        tools:context=".main.ProfileFragment">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="24dp">
+
+                <TextView
+                    style="@style/ResumeApp.Header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/header_introduction" />
+
+                <ImageButton
+                    android:id="@+id/introduction_edit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:backgroundTint="@color/black" />
+
+            </LinearLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/introduction_cardview"
+                style="@style/ResumeApp.Card"
+                app:rippleColor="@color/transparent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/introduction_textview"
+                        style="@style/ResumeApp.Body"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/introduction" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout
+                android:id="@+id/introduction_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/experience_title_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="24dp">
+
+                <TextView
+                    android:id="@+id/experience_title"
+                    style="@style/ResumeApp.Header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/header_experience" />
+
+                <ImageButton
+                    android:id="@+id/experience_add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_add_24"
+                    android:backgroundTint="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/experience_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/awards_title_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="24dp">
+
+                <TextView
+                    android:id="@+id/awards_title"
+                    style="@style/ResumeApp.Header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/header_awards" />
+
+                <ImageButton
+                    android:id="@+id/awards_add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_add_24"
+                    android:backgroundTint="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/awards_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/education_title_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="24dp">
+
+                <TextView
+                    android:id="@+id/education_title"
+                    style="@style/ResumeApp.Header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/header_education" />
+
+                <ImageButton
+                    android:id="@+id/education_add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_add_24"
+                    android:backgroundTint="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/education_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/certifications_title_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="24dp">
+
+                <TextView
+                    android:id="@+id/certifications_title"
+                    style="@style/ResumeApp.Header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/header_certifications" />
+
+                <ImageButton
+                    android:id="@+id/certifications_add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_add_24"
+                    android:backgroundTint="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/certifications_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/skills_title_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="24dp">
+
+                <TextView
+                    android:id="@+id/skills_title"
+                    style="@style/ResumeApp.Header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/header_skills" />
+
+                <ImageButton
+                    android:id="@+id/skills_add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_add_24"
+                    android:backgroundTint="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/skills_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

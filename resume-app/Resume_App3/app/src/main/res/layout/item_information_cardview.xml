@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="24dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/ic_baseline_account_circle_96"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name_textview"
+                style="@style/ResumeApp.Title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/name"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/information_edit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:backgroundTint="@color/black"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/current_job_textview"
+            style="@style/ResumeApp.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_job" />
+
+        <TextView
+            android:id="@+id/phone_number_textview"
+            style="@style/ResumeApp.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number" />
+
+        <TextView
+            android:id="@+id/email_textview"
+            style="@style/ResumeApp.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading_blurb">请稍等</string>
+
+    <string name="title_your_resumes">您的简历</string>
+    <string name="title_profile">个人资料</string>
+    <string name="title_resume_editor">填</string>
+    <string name="title_resume_preview">PDF的预览</string>
+
+    <string name="button_create_resume">创建简历</string>
+    <string name="button_preview">预览</string>
+    <string name="button_download">下载</string>
+    <string name="button_save">保存</string>
+
+    <string name="header_experience">工作</string>
+    <string name="header_education">教育</string>
+    <string name="header_certifications">认证</string>
+    <string name="header_awards">奖项</string>
+    <string name="header_skills">技能</string>
+    <string name="header_introduction">介绍</string>
+
+    <string name="header_add_experience">加入工作</string>
+    <string name="header_add_education">加入教育</string>
+    <string name="header_add_certifications">加入认证</string>
+    <string name="header_add_awards">加入奖项</string>
+    <string name="header_add_skills">加入技能</string>
+
+    <string name="toast_file_saved">下载成功</string>
+
+    <string name="issued_date_to_expiry_date">收到 %1$s | 过期 %2$s</string>
+    <string name="start_date_to_end_date">%1$s 到 %2$s</string>
+
+    <string name="header_enter_resume_name">填文件名</string>
+
+
+    <!--edit text hints below-->
+    <!--shared-->
+    <string name="short_description">简短介绍</string>
+    <string name="issuer_name">发行人</string>
+    <string name="issued_date">发行日</string>
+    <string name="expiry_date">到期日</string>
+    <string name="start_date">开始日</string>
+    <string name="end_date">完成日</string>
+    <string name="resume_name">文件名</string>
+
+    <!--information card-->
+    <string name="edit_information">改变资料</string>
+    <string name="name">名字</string>
+    <string name="current_job">当前工作</string>
+    <string name="phone_number">电话号码</string>
+    <string name="email">电子邮件</string>
+
+    <!--introduction card-->
+    <string name="edit_introduction">改变介绍</string>
+    <string name="introduction">向我们介绍你自己</string>
+
+    <!--experience card-->
+    <string name="add_experience">加入工作</string>
+    <string name="edit_experience">改变工作</string>
+    <string name="position_title">工作职位</string>
+    <string name="organization_name">公司</string>
+
+    <!--award card-->
+    <string name="add_award">加入奖项</string>
+    <string name="edit_award">改变奖项</string>
+    <string name="award_honour_title">奖项</string>
+
+    <!--education card-->
+    <string name="add_education">加入教育</string>
+    <string name="edit_education">改变教育</string>
+    <string name="school_name">学校</string>
+
+    <!--certification card-->
+    <string name="add_certification">加入认证</string>
+    <string name="edit_certification">改变认证</string>
+    <string name="certification_license_title">认证</string>
+
+    <!--skill card-->
+    <string name="add_skill">加入技能</string>
+    <string name="edit_skill">改变技能</string>
+    <string name="skill">技能</string>
+
+    <string name="error_generic">出了问题</string>
+    <string name="error_fill_field">这个空白是必需的</string>
+    <string name="error_already_exists">那个文件已经存在</string>
+    <string name="error_not_found">这张卡不在您的个人资料中. 删除?</string>
+
+    <string name="lose_progress_warning">如果您现在退出，您将失去所有进度</string>
+    <string name="continue_working">继续</string>
+    <string name="erase_progress">退出</string>
+
+    <string name="delete_card_warning">您确定要删除这张卡吗?</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+
+    <string name="not_sure_what_to_write">我应该在这里写什么?</string>
+    <string name="experience_writing_tips">
+        抱歉! 我们需要翻译; 如果您有兴趣，请联系我们
+
+        This is one of the most important sections of your resume,
+        as it shows employers that you\'re qualified for the job.
+        Here are some things you might write about…\n\n
+
+        \t• Outline your responsibilities at the job;\n
+        \t• Describe some of the things you worked on;\n
+        \t• Highlight any achievements.\n\n
+
+        Still feeling stuck? Try looking at some examples for inspiration!
+    </string>
+    <string name="introduction_writing_tips">
+        抱歉! 我们需要翻译; 如果您有兴趣，请联系我们
+
+        This is the first thing employers will read,
+        so it’s important to make a good first impression!
+        For example, you can write about…\n\n
+
+        \t• Any relevant experience or skills;\n
+        \t• Any career highlights and achievements.\n\n
+
+        Still feeling stuck? Try looking at some examples for inspiration!
+    </string>
+
+</resources>

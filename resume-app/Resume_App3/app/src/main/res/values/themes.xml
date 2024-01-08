@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.ResumeApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/dark_black</item>
+        <item name="android:colorEdgeEffect">@color/slate_blue</item>
+    </style>
+</resources>
